@@ -7,7 +7,7 @@
 
 This is the repo to reproducibility the experiments presented at the paper "Preliminary Evidence of Representation Changes Induced by Associative Memorization on Transformer-based Language Models, Using MeMo Models" (STATUS: SUBMITTED, WAITING FOR REVIEW)
 
-· UPDATE MAY-31: This repo has become public!
+· UPDATE MAY-31: This repo has become public for the first time!
 
 ---
 
