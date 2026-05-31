@@ -31,7 +31,7 @@ This is the repo to reproducibility the experiments presented at the paper "Prel
 ```
 
 ### Instructions:
-1. Fork it if you need it, and download it on a suitable service (e.g. a google cloud environment, or your local computer).
+1. Fork it if you need it, and download it on a suitable service (e.g. a google cloud environment, any docker service or your local computer).
 2. Using a terminal, go to the download path and initialize a virtual enviroment. Then, install all required packages:
 ```bash
 ~/path/where/you/downloaded $ python3.11 -m venv my_venv
