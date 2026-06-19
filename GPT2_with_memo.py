@@ -71,7 +71,7 @@ class MeMoGPT2(nn.Module):
         batch_size = input_ids.size(0)
         token_embeds = self.gpt2.transformer.wte(input_ids)
 
-        reconstr_text = self.reconstruct(input_ids=input_ids, attention_mask=attention_mask) ## Not the cleanest way but my blood is 150% coffe and its 5 am. ChatGPT Is clueless abt "how2 deez sheet" and I just want to paint another miniature while waiting for another run.
+        reconstr_text = self.reconstruct(input_ids=input_ids, attention_mask=attention_mask) ## Not the cleanest way but my blood is 150% coffe and its 5 am.
 
         for text in reconstr_text: #tqdm(reconstr_text, desc="Text per batch"):
             encoded = self.MEMO_tokenizer.get_text_batch_encoding([text])
